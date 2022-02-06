@@ -1,1 +1,2 @@
-# maven_homework
+# Основы Maven и Gradle
+Домашнее задание
