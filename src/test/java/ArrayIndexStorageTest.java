@@ -21,4 +21,11 @@ public class ArrayIndexStorageTest {
         int reverseArr[] = {1, 1, 0, 2, 1, 1, 0};
         Assertions.assertArrayEquals(reverseArr, arrayIndexStorage.reverse());
     }
+
+    @Test
+    public void testReverseEven() {
+        int evenArr[] = {1, 1, 2, 2, 1, 1};
+        arrayIndexStorage = new ArrayIndexStorage(evenArr);
+        Assertions.assertArrayEquals(evenArr, arrayIndexStorage.reverse());
+    }
 }
